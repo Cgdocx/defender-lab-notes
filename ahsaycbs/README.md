@@ -65,7 +65,7 @@ inventory done.
 
 Result: no AhsayCBS install on the lab host. The hotfix list is printed for reference only — it does not prove local patch state. On a real CBS host, read the build from the admin console or install directory.
 
-<!-- IMAGE: /lab/ahsaycbs/screenshots/crisp/01-inventory.png caption: inventory path check -->
+![inventory path check](screenshots/01-inventory.png)
 
 ## 5. Hunt commands used (copy-paste)
 
@@ -173,7 +173,7 @@ imagefiles-backup.oss-ap-southeast-7.aliyuncs.com (bucket only)
 hunt done — if matches on authorized Windows CBS host: isolate + preserve evidence.
 ```
 
-<!-- IMAGE: /lab/ahsaycbs/screenshots/crisp/02-hunt.png caption: public IoC hunt cues -->
+![public IoC hunt cues](screenshots/02-hunt.png)
 
 Mitigation checklist (exact lab output of `mitigation.sh`; sha256 in §1):
 
@@ -196,7 +196,7 @@ mitigation checklist ready.
 
 Expanded recovery steps (credential rotation, AutoSave restore window) are in §7; they are guidance, not script output.
 
-<!-- IMAGE: /lab/ahsaycbs/screenshots/crisp/03-mitigation.png caption: mitigation checklist -->
+![mitigation checklist](screenshots/03-mitigation.png)
 
 
 ## 6. Detection ideas
