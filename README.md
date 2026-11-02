@@ -5,5 +5,6 @@ Defensive lab notes (php2shell-style): **inventory → hunt → mitigation** scr
 | Pack | Folder |
 |---|---|
 | AhsayCBS | [ahsaycbs/](ahsaycbs/) |
+| Ivanti ICS | [ivanti-ics/](ivanti-ics/) |
 
 Future packs (ivanti-ics, rankmath-pro, cursor-claude-ext, teamviewer, linux-kernel-mptcp, ...) are added as sibling folders.
